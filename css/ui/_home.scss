@@ -1,0 +1,23 @@
+.about {
+	padding: 20px 20px;
+	color:#525252;
+	line-height:1.8em;
+	font-size:14px;
+	.title {
+		text-align: center;
+		color: #343434;
+		font-weight: 600;
+		font-size: 22px;
+		margin: 10px 0;
+	}
+	h3 {
+		font-size: 19px;
+	}
+	.hr {
+		border-top: 1px solid #e4e4e4;
+		margin:0 60px 30px 60px;
+	}
+	a{
+		color:#3F99D4;
+	}
+}
