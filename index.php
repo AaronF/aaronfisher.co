@@ -9,16 +9,14 @@
 	<meta name="keywords" content="">
 	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
 
-    <link rel="stylesheet" href="css/external/gridiculous.css">
-    <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="css/external/font-awesome.css">
+    <link rel="stylesheet" href="include/css/style.min.css">
 
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     
     <title>Aaron Fisher - Web Designer/Developer</title>
 </head>
 <body>
-<?php include_once("layout_inc/header.php");?>
+<?php include_once("include/layout_inc/header.php");?>
 <div class="grid w640 about">
 	<div class="row clear">
 		<div class="c12">
@@ -41,7 +39,7 @@
 		</div>
 	</div>
 </div>
-<?php include_once("layout_inc/footer.php");?>
+<?php include_once("include/layout_inc/footer.php");?>
 <!-- <script src=""></script> -->
 </body>
 </html>

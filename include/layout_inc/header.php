@@ -3,7 +3,7 @@
     <div class="grid w640">
         <div class="row">
             <div class="avatar">
-                <img src="images/photo.jpg" width="160px">
+                <img src="include/images/photo.jpg" width="160px">
             </div>
             <h1>Hi, I'm Aaron</h1>
             <h3><a href="http://twitter.com/thetechbox">@TheTechBox</a></h3>
