@@ -25,6 +25,7 @@
 			<h2 class="title">About Me</h2>
 			<p>I am a part web designer and part web developer from the UK. I have worked on a number of projects, some for myself and some for others all of which are detailed below. I also co-host a weekly tech news podcast called 'The Two Techies' of which we have done over 200 episodes in four years!</p>
 			<p>You can find me on <a href="http://twitter.com/thetechbox">Twitter</a>, <a href="http://facebook.com/thetechbox">Facebook</a>, <a href="http://plus.google.com/+AaronFisher">Google+</a> (yes, you read that right) or you can drop me an <a href="mailto:aaron@thetechbox.com">email</a>.</p>
+			<p>You can find my GitHub profile at <a href="http://github.com/thetechbox">GitHub.com/TheTechBox</a>.</p>
 			<h2 class="title">Some Projects</h2>
 			<h3><a href="http://farelert.com">Farelert.com</a></h2>
 			<p>Farelert makes it super easy to track the price of a flight over time. All you have to do is enter a few details about your trip and farelert will show you the results, from there you can track multiple flights and get alerted by email or text as soon as it changes. This is currently an ongoing project that we hope to launch in the new year!</p>
@@ -40,6 +41,7 @@
 		</div>
 	</div>
 </div>
+<?php include_once("layout_inc/footer.php");?>
 <!-- <script src=""></script> -->
 </body>
 </html>
