@@ -22,7 +22,7 @@
 		<div class="c12">
 			<h2 class="title">About Me</h2>
 			<p>I am a part web designer and part web developer from the UK. I have worked on a number of projects, some for myself and some for others all of which are detailed below. I also co-host a weekly tech news podcast called 'The Two Techies' of which we have done over 200 episodes in four years!</p>
-			<p>You can find me on <a href="http://twitter.com/thetechbox">Twitter</a>, <a href="http://facebook.com/thetechbox">Facebook</a>, <a href="http://plus.google.com/+AaronFisher">Google+</a> (yes, you read that right) or you can drop me an <a href="mailto:aaron@thetechbox.com">email</a>.</p>
+			<p>You can find me on <a href="http://twitter.com/thetechbox">Twitter</a>, <a href="http://facebook.com/thetechbox">Facebook</a>, <a href="http://plus.google.com/+AaronFisher">Google+</a> (yes, you read that right) or you can drop me an <a href="mailto:aaron@thetechbox.com">email</a>. I have Tumblr that you can find <a href="http://thetechbox.tumblr.com">here</a>.</p>
 			<p>You can find my GitHub profile at <a href="http://github.com/thetechbox">GitHub.com/TheTechBox</a>.</p>
 			<h2 class="title">Some Projects</h2>
 			<h3><a href="http://farelert.com">Farelert.com</a></h2>
