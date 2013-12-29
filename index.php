@@ -5,8 +5,9 @@
 
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0"> 
 	<link rel="shortcut icon" href="../siteimages/favicon.ico">
-	<meta name="description" content=""/>
-	<meta name="keywords" content="">
+	<meta name="description" content="Aaron Fisher - I am a web designer and developer from the UK. Passionate about motorsports (Formula 1) and podcast at Mucnhtech.tv!"/>
+	<meta name="keywords" content="web design development podcast munchtech farelert syndifeed thetechbox">
+	<meta name="google-site-verification" content="z6SUPY2wpWsdeGJogXTLN_gHUlojt_wZdV5gqz_WRI8" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
 
     <link rel="stylesheet" href="include/css/style.min.css">
