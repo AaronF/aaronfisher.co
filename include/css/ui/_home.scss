@@ -21,3 +21,41 @@
 		color:#3F99D4;
 	}
 }
+
+.sections {
+	.section{
+		padding: 20px;
+		min-height: 200px;
+		width: 100%;
+		.text {
+			img {
+				margin: 0 0 20px 0;
+			}
+			padding: 20px 0 0 0;
+			h1 {
+				color: #fff;
+			}
+			p {
+				color: #A29FAB;
+				font-size: 11pt;
+				font-weight: 100;
+			}
+		}
+		.visitbutton {
+			color:#FCFDFC;
+			padding: 15px 30px;
+			background-color:#36B97B;
+			@include border-radius(4px);
+		}
+	}
+	#section1 {
+		background-color: #292B34;
+	}
+	#section2 {
+		background-color: #292B34;
+		padding: 20px 20px 0 20px;
+		.visitbutton {
+			background-color:#1B80BC;
+		}
+	}
+}
