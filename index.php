@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-
+	<title>Aaron Fisher - Web Designer/Developer</title>
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0"> 
 	<link rel="shortcut icon" href="siteimages/favicon.png">
 	<meta name="description" content="Aaron Fisher - I am a web designer and developer from the UK. Passionate about motorsports (Formula 1) and podcast at Mucnhtech.tv!"/>
@@ -10,11 +10,21 @@
 	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
 
     <link rel="stylesheet" href="include/css/style.min.css">
-    
-    <title>Aaron Fisher - Web Designer/Developer</title>
 </head>
 <body>
-<?php include_once("include/layout_inc/header.php");?>
+<div class="header">
+    <div class="grid w640">
+        <div class="row">
+            <div class="avatar">
+                <img src="include/images/photo_1.jpg" width="160px">
+            </div>
+            <h1>Hi, I'm Aaron</h1>
+            <h3><a href="http://twitter.com/thetechbox">@TheTechBox</a></h3>
+            <h2>I'm a podcaster and I make stuff on the internet.</h2>
+            <div class="cf"></div>
+        </div>
+    </div>
+</div>
 <div class="grid w640 about">
 	<div class="row clear">
 		<div class="c12">
@@ -37,7 +47,15 @@
 		</div>
 	</div>
 </div>
-<?php include_once("include/layout_inc/footer.php");?>
+<div class="footer">
+	<div class="grid w640">
+		<div class="row">
+			<div class="c12">
+				<p>&#169; Copyright Aaron Fisher 2013.</p>
+			</div>
+		</div>
+	</div>
+</div>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
