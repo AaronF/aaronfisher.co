@@ -44,7 +44,7 @@
 	<div class="section" id="section1">
 		<div class="grid w900">
 			<div class="image c5">
-				<img src="include/images/farelert.png" >
+				<img src="include/images/farelert_1.png" >
 			</div>
 			<div class="c1"></div>
 			<div class="text c6">
