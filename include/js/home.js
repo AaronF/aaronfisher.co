@@ -49,3 +49,19 @@ window.onload = function() {
     }
   }
 };
+
+$(document).ready(function(){
+    dug({
+        endpoint: 'https://api.instagram.com/v1/users/1158594/media/recent/?access_token=1158594.5276196.0e70b8dbde224ec7ac799775c2929397&count=8',
+        template: '<ul class="photos">\
+        {{#data}}\
+          <li>\
+            <a href="{{link}}">\
+              <img src="{{images.low_resolution.url}}">\
+            </a>\
+          </li>\
+        {{/data}}\
+        ',
+        target: 'instagram_pictures'
+    });
+});
