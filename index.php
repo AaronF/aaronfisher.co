@@ -7,10 +7,9 @@
 	<link rel="shortcut icon" href="siteimages/favicon.png">
 	<meta name="description" content="Aaron Fisher - I am a web designer and developer from the UK. Passionate about motorsports (Formula 1) and podcast at MunchTech.tv!"/>
 	<meta name="keywords" content="web design development podcast munchtech farelert syndifeed thetechbox">
-	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
 
     <link rel="stylesheet" href="include/css/style.min.css">
-		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 </head>
 <body>
 <div class="thin_header"></div>
