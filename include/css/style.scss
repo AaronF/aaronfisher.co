@@ -13,8 +13,18 @@
 	font-family: 'Open Sans Regular'; src: url("fonts/OpenSans-Regular.ttf") format('truetype');
 }
 
+@font-face {
+	font-family: 'PT Sans'; src: url("fonts/PTC55F.ttf") format('truetype');
+}
+
 body {
-	background-color:#F8F8F8;
+	font-family: "PT Sans",sans-serif;
+	font-size: 100%;
+	margin: 0;
+	line-height: 1.6;
+	color: #555;
+	background: #fff;
+	-webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -53,7 +63,7 @@ input[type="text"], input[type="number"], input[type="email"], input[type="url"]
 
 @import "ui/header";
 @import "ui/footer";
-@import "ui/home";
+@import "ui/page";
 
 @import "ui/elements";
 

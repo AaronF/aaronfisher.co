@@ -1,0 +1,73 @@
+.page {
+	font-size: 125%;
+	.text_section {
+		padding: 20px 0;
+		@include media-query(palm){
+			padding: 20px;
+		}
+		.title {
+			text-align: center;
+			font-size: 200%;
+			@include media-query(palm){
+				font-size: 125%;
+			}
+		}
+	}
+	.hr {
+		border-top: 1px solid #e4e4e4;
+		margin:0 60px 0 60px;
+	}
+	.projects {
+		.project_title {
+			text-decoration: underline;
+			color: #555555;
+		}
+	}
+}
+
+.header_page {
+	height: 500px;
+	margin: 0 0 10px 0;
+	h1 {
+		color: #fff;
+		font-weight: 200;
+		text-align: center;
+		line-height: 200px;
+		font-size: 250%;
+		@include media-query(palm){
+			line-height: 150px;
+		}
+	}
+}
+.about_page {
+	.header_page {
+		background: url("../images/f1_1.jpg");
+		background-size: cover;
+		background-position: 0% 40%;
+		@include media-query(palm){
+			background-position: 50% 40%;
+			height: 300px;
+		}
+	}
+}
+
+.instagram {
+	p {
+		margin: 0 0 0 10px;
+	}
+	ul.photos {
+		margin:0;
+		li {
+			padding: 10px;
+			list-style:none;
+			display:inline-block;
+			float:left;
+			width:25%;
+			a {
+				img {
+
+				}
+			}
+		}
+	}
+}
