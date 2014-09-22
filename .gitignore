@@ -1,4 +1,2 @@
-include/css/.sass-cache
-.DS_Store
-include/images/.DS_Store
-include/.DS_Store
+.sass-cache
+images/.DS_Store

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/**
+ * Main stylesheet
+ * Add any imports to this file - compiled to stylesheets/style.css
+ *
+ * sass --watch stylesheets/style.scss:stylesheets/style.css
+ */
+
+//Base fonts
+@font-face {
+	font-family: 'Open-Sans-Light'; src: url("fonts/OpenSans-Light.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: 'Open Sans Regular'; src: url("fonts/OpenSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: 'PT Sans'; src: url("fonts/PTC55F.ttf") format('truetype');
+}
+
+//Base Skeleton CSS files (/stylesheets/skeleton)
+@import "skeleton/variables";
+@import "skeleton/mixins";
+@import "skeleton/base";
+@import "skeleton/layout";
+@import "skeleton/skeleton";
+
+/**
+ * CSS Elements
+ */
+body {
+	font-family: "PT Sans",sans-serif;
+	font-size: 100%;
+	margin: 0;
+	line-height: 1.6;
+	color: #555;
+	background: #fff;
+	-webkit-font-smoothing: antialiased;
+}
+
+p {
+	margin-bottom: 1.71429rem;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+//UI css (/stylesheets/ui)
+@import "ui/header";
+@import "ui/footer";
+@import "ui/page";
+
+@import "ui/elements";
+
+@import "ui/404";

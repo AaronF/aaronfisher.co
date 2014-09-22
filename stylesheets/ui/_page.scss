@@ -1,5 +1,5 @@
 .page {
-	font-size: 125%;
+	font-size: 110%;
 	.text_section {
 		padding: 20px 0;
 		@include media-query(palm){
@@ -7,7 +7,10 @@
 		}
 		.title {
 			text-align: center;
-			font-size: 200%;
+			font-size: 180%;
+			font-weight: 800;
+			color: #555;
+			line-height: 1.92;
 			@include media-query(palm){
 				font-size: 125%;
 			}
@@ -33,7 +36,7 @@
 		font-weight: 200;
 		text-align: center;
 		line-height: 200px;
-		font-size: 250%;
+		font-size: 220%;
 		@include media-query(palm){
 			line-height: 150px;
 		}
