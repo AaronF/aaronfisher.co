@@ -30,7 +30,7 @@ img{max-width:100%;height:auto;display:block;margin-left:auto;margin-right:auto}
 .c10{width:83.33%}
 .c11{width:91.66%}
 .c12{width:100%}
-.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12{min-height:1px;float:left;padding-left:0;padding-right:0;position:relative}
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12{min-height:1px;float:left;padding-left:15px;padding-right:15px;position:relative}
 .s1{margin-left:8.33%}
 .s2{margin-left:16.66%}
 .s3{margin-left:25%}
@@ -48,7 +48,13 @@ img{max-width:100%;height:auto;display:block;margin-left:auto;margin-right:auto}
 -------------------------------------------------------------- */
 @include media-query(palm){
     .row{margin-bottom:0!important}
-    .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12{width:100%;margin-right:0;margin-left:0;margin-bottom:20px}
+    .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12 {
+        width:100%;
+        margin-right:0;
+        margin-left:0;
+        margin-bottom:20px;
+        padding: 0;
+    }
 }
 
 /* =Media query for iPad and tablets

@@ -35,18 +35,19 @@
 		color: #fff;
 		font-weight: 200;
 		text-align: center;
-		line-height: 200px;
-		font-size: 220%;
+		line-height: 500px;
+		font-size: 300%;
 		@include media-query(palm){
-			line-height: 150px;
+			font-size: 250%;
+			line-height: 300px;
 		}
 	}
 }
 .about_page {
 	.header_page {
-		background: url("../images/f1_1.jpg");
+		background: url("../images/nyc-1.jpg");
 		background-size: cover;
-		background-position: 0% 40%;
+		background-position: 0% 45%;
 		@include media-query(palm){
 			background-position: 50% 40%;
 			height: 300px;
