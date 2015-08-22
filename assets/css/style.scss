@@ -1,0 +1,156 @@
+/**
+ * Website Starter Pack 1.1 (aaronfisher.co)
+ * Main stylesheet
+ * Add any imports to this file - compiled to css/style.css
+ */
+
+@font-face {
+	font-family: 'Open-Sans-Light'; src: url("../fonts/OpenSans-Light.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: 'Open Sans Regular'; src: url("../fonts/OpenSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: 'PT Sans'; src: url("../fonts/PTC55F.ttf") format('truetype');
+}
+
+@import "includes/variables";
+@import "includes/mixins";
+
+/**
+ * CSS Elements
+ */
+html, body {
+	font-family: "PT Sans",sans-serif;
+	line-height: 1.6em;
+	color: #555;
+	background-color: #fff;
+	-webkit-font-smoothing: antialiased;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+p {
+	font-size: 1.25em;
+	line-height: 1.6em;
+}
+
+/**
+ * Header
+ */
+.header {
+	height: 500px;
+	margin: 0 0 10px 0;
+	background: url("../images/nyc-1.jpg");
+	background-size: cover;
+	background-position: 0% 45%;
+	@media only screen and (max-width: $break-small){
+		height: 200px;
+	}
+	h1 {
+		color: #fff;
+		font-weight: 200;
+		text-align: center;
+		line-height: 500px;
+		font-size: 4.0em;
+		@media only screen and (max-width: $break-small){
+			line-height: 180px;
+			font-size: 3.0em;
+		}
+	}
+}
+
+/**
+ * General elements
+ */
+.hr {
+	border-top: 1px solid #e4e4e4;
+	margin:0 60px 0 60px;
+}
+
+/**
+ * Page
+ */
+.text-section {
+	padding: 0 0 30px 0;
+	.title {
+    	text-align: center;
+    	font-size: 2.1em;
+    	font-weight: 800;
+    	color: #555;
+    	line-height: 1.92;
+    }
+	.project_title {
+		text-decoration: underline;
+		color: #555555;
+		h3 {
+			font-weight: 800;
+		}
+	}
+}
+
+/**
+ * Instagram
+ */
+.instagram {
+	margin: 30px 0 20px 0;
+	ul.photos {
+		padding:0;
+		margin: 0;
+		li {
+			padding: 10px 10px 10px 0;
+			list-style:none;
+			display:inline-block;
+			float:left;
+			width:25%;
+			a {
+				img {
+					max-width: 100%;
+				}
+			}
+		}
+	}
+}
+
+/**
+ * Social colours
+ */
+.social {
+	text-align: center;
+	padding: 20px 0;
+	margin: 0;
+	p {
+		margin: 0 0 0 10px;
+	}
+}
+
+a.twitter {
+	color: #2F93E7;
+}
+
+a.flickr {
+	color: #E54798;
+}
+
+a.instagram {
+	color: #72615B;
+}
+
+a.google-plus {
+	color: #C84235;
+}
+
+/**
+ * footer
+ */
+.footer {
+	padding: 20px 0;
+}
